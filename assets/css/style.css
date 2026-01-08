@@ -105,23 +105,6 @@ header .hero .hero-copytext .cta-button {
     text-decoration: none;
 }
 
-section#our-goals .section-container .section-header {
-    margin-bottom: 1em;
-    text-align: center;
-}
-
-section#our-goals .section-container .section-header hr {
-    background: #4779D4;
-    width: 70px;
-    height: 0.1em;
-    margin: 1em auto;
-}
-
-section#our-goals .section-container .section-header p {
-    text-align: center;
-    margin-bottom: 1em;
-}
-
 section#our-goals .section-container .section-header .cta-button {
     width: 240px;
     margin: 0 auto;
@@ -169,4 +152,81 @@ section#our-goals .section-container .section-body .card:nth-child(odd) {
 
 section#our-goals .section-container .section-body .card:nth-child(even) {
     background: #1A1A1A;
+}
+
+section#our-services .section-container .section-body .services-container {
+    height: 150px;
+    position: relative;
+}
+
+section#our-services .section-container .section-body .services-container .services .service-card{
+    height: 50px;
+}
+
+section#our-services .section-container .section-body .services-container .services:nth-child(1) {
+    position: absolute;
+    left: 4em;
+}
+
+section#our-services .section-container .section-body .services-container .services:nth-child(1) .service-card:nth-child(1){
+    position: absolute;
+    top: 0;
+}
+
+section#our-services .section-container .section-body .services-container .services:nth-child(1) .service-card:nth-child(2){
+    position: absolute;
+    top: 100px;
+}
+
+section#our-services .section-container .section-body .services-container .services:nth-child(1) .service-card:nth-child(3){
+    position: absolute;
+    top: 200px;
+}
+
+section#our-services .section-container .section-body .services-container .services:nth-child(2){
+    position: absolute;
+    left: 8em;
+}
+
+section#our-services .section-container .section-body .services-container .services:nth-child(2) .service-card:nth-child(1){
+    position: absolute;
+    top: 0;
+}
+
+section#our-services .section-container .section-body .services-container .services:nth-child(2) .service-card:nth-child(2){
+    position: absolute;
+    top: 100px;
+}
+
+section#our-services .section-container .section-body .services-container .services:nth-child(2) .service-card:nth-child(3){
+    position: absolute;
+    top: 200px;
+}
+
+section#our-services .section-container .section-body .services-container .services:nth-child(3){
+    position: absolute;
+    left: 12em;
+}
+
+section#our-services .section-container .section-body .services-container .services .service-card img{
+    width: 40px;
+}
+
+/* Utility */
+
+section .section-container .section-header {
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+section .section-container .section-header hr {
+    background: #4779D4;
+    width: 70px;
+    height: 0.1em;
+    margin: 1em auto;
+}
+
+section .section-container .section-header p {
+    text-align: center;
+    margin-bottom: 1em;
 }
