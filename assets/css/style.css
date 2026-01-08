@@ -185,7 +185,7 @@ section#our-services .section-container .section-body .services-container .servi
 
 section#our-services .section-container .section-body .services-container .services:nth-child(2){
     position: absolute;
-    left: 8em;
+    left: 33%;
 }
 
 section#our-services .section-container .section-body .services-container .services:nth-child(2) .service-card:nth-child(1){
@@ -205,7 +205,7 @@ section#our-services .section-container .section-body .services-container .servi
 
 section#our-services .section-container .section-body .services-container .services:nth-child(3){
     position: absolute;
-    left: 12em;
+    left: 66%;
 }
 
 section#our-services .section-container .section-body .services-container .services .service-card img{
