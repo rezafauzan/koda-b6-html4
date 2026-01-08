@@ -42,3 +42,21 @@ nav ul li a.active{
     color: black;
     border-bottom: 1px solid black;
 }
+
+header .hero{
+    color: white;
+    position: relative;
+}
+
+header .hero .hero-image{
+    width: 100%;
+}
+.filter{
+    background: rgba(0, 0, 255, 0.1);
+    position: absolute;
+    top: 0;
+    left:0;
+    right:0;
+    bottom: 0;
+}
+
