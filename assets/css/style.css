@@ -159,7 +159,21 @@ section#our-services .section-container .section-body .services-container {
     position: relative;
 }
 
-section#our-services .section-container .section-body .services-container .services .service-card{
+section#our-services .section-container .section-body .services-container .service-card {
+    width: 16vw;
+    height: 150px;
+    background: #eaeaea;
+    font-size: 1vw;
+}
+
+section#our-services .section-container .section-body .services-container .services .service-card img {
+    width: 40px;
+    position: relative;
+    top: 4px;
+    left: -1.8em;
+}
+
+section#our-services .section-container .section-body .services-container .services .service-card {
     height: 50px;
 }
 
@@ -168,48 +182,59 @@ section#our-services .section-container .section-body .services-container .servi
     left: 4em;
 }
 
-section#our-services .section-container .section-body .services-container .services:nth-child(1) .service-card:nth-child(1){
+section#our-services .section-container .section-body .services-container .services:nth-child(1) .service-card:nth-child(1) {
     position: absolute;
     top: 0;
 }
 
-section#our-services .section-container .section-body .services-container .services:nth-child(1) .service-card:nth-child(2){
+section#our-services .section-container .section-body .services-container .services:nth-child(1) .service-card:nth-child(2) {
     position: absolute;
     top: 100px;
 }
 
-section#our-services .section-container .section-body .services-container .services:nth-child(1) .service-card:nth-child(3){
+section#our-services .section-container .section-body .services-container .services:nth-child(1) .service-card:nth-child(3) {
     position: absolute;
     top: 200px;
 }
 
-section#our-services .section-container .section-body .services-container .services:nth-child(2){
+section#our-services .section-container .section-body .services-container .services:nth-child(2) {
     position: absolute;
-    left: 33%;
+    left: 25%;
 }
 
-section#our-services .section-container .section-body .services-container .services:nth-child(2) .service-card:nth-child(1){
+section#our-services .section-container .section-body .services-container .services:nth-child(2) .service-card:nth-child(1) {
     position: absolute;
     top: 0;
 }
 
-section#our-services .section-container .section-body .services-container .services:nth-child(2) .service-card:nth-child(2){
+section#our-services .section-container .section-body .services-container .services:nth-child(2) .service-card:nth-child(2) {
     position: absolute;
     top: 100px;
 }
 
-section#our-services .section-container .section-body .services-container .services:nth-child(2) .service-card:nth-child(3){
+section#our-services .section-container .section-body .services-container .services:nth-child(2) .service-card:nth-child(3) {
     position: absolute;
     top: 200px;
 }
 
-section#our-services .section-container .section-body .services-container .services:nth-child(3){
+section#our-services .section-container .section-body .services-container .services:nth-child(3) {
     position: absolute;
-    left: 66%;
+    left: 50%
 }
 
-section#our-services .section-container .section-body .services-container .services .service-card img{
-    width: 40px;
+section#our-services .section-container .section-body .services-container .services:nth-child(3) .service-card:nth-child(1) {
+    position: absolute;
+    top: 0;
+}
+
+section#our-services .section-container .section-body .services-container .services:nth-child(3) .service-card:nth-child(2) {
+    position: absolute;
+    top: 100px;
+}
+
+section#our-services .section-container .section-body .services-container .services:nth-child(3) .service-card:nth-child(3) {
+    position: absolute;
+    top: 200px;
 }
 
 /* Utility */
