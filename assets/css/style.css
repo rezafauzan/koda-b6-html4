@@ -160,7 +160,7 @@ section#our-services .section-container .section-body .services-container {
     text-align: center;
 }
 
-section#our-services .section-container .section-body .services-container .service-card{
+section#our-services .section-container .section-body .services-container .service-card {
     background: #F1F1F1;
     width: calc(90% / 3);
     height: 70px;
@@ -170,11 +170,83 @@ section#our-services .section-container .section-body .services-container .servi
     position: relative;
 }
 
-section#our-services .section-container .section-body .services-container .service-card img{
+section#our-services .section-container .section-body .services-container .service-card img {
     width: 60px;
     position: absolute;
     top: 4px;
     left: -1.9em;
+}
+
+section#our-feature .section-container {
+    background: #4779D4;
+    text-align: center;
+    color: white;
+}
+
+section#our-feature .section-container .card {
+    display: inline-block;
+    width: 22%;
+    padding: 1em;
+}
+
+section#our-feature .section-container .card span {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+section#our-feature .section-container .card img {
+    width: 80px;
+}
+
+section#our-feature .section-container .card img {
+    width: 80px;
+}
+
+.gallery{
+    text-align: center;
+}
+
+.nav.portfolio{
+    margin-bottom: 1em;
+}
+
+.nav.portfolio ul {
+    list-style: none;
+    text-align: center;
+}
+
+.nav.portfolio ul li {
+    display: inline-block;
+}
+
+.nav.portfolio ul li a {
+    color: #4779D4;
+    margin-right: 1em;
+    font-weight: bold;
+    font-size: 2.8vh;
+    text-decoration: none;
+}
+
+.nav.portfolio ul li a:hover,
+.nav.portfolio .brand a:hover {
+    color: black;
+}
+
+.nav.portfolio ul li a.active {
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+.nav.portfolio ul li a.active:hover {
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+footer{
+    background: #4779D4;
+    color: white;
+    height: 40px;
+    text-align: center;
 }
 
 /* Utility */
