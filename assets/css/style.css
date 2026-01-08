@@ -154,87 +154,27 @@ section#our-goals .section-container .section-body .card:nth-child(even) {
     background: #1A1A1A;
 }
 
+
 section#our-services .section-container .section-body .services-container {
-    height: 150px;
+    margin: auto;
+    text-align: center;
+}
+
+section#our-services .section-container .section-body .services-container .service-card{
+    background: #F1F1F1;
+    width: calc(90% / 3);
+    height: 70px;
+    margin: 1em;
+    display: inline-block;
+    line-height: 70px;
     position: relative;
 }
 
-section#our-services .section-container .section-body .services-container .service-card {
-    width: 16vw;
-    height: 150px;
-    background: #eaeaea;
-    font-size: 1vw;
-}
-
-section#our-services .section-container .section-body .services-container .services .service-card img {
-    width: 40px;
-    position: relative;
+section#our-services .section-container .section-body .services-container .service-card img{
+    width: 60px;
+    position: absolute;
     top: 4px;
-    left: -1.8em;
-}
-
-section#our-services .section-container .section-body .services-container .services .service-card {
-    height: 50px;
-}
-
-section#our-services .section-container .section-body .services-container .services:nth-child(1) {
-    position: absolute;
-    left: 4em;
-}
-
-section#our-services .section-container .section-body .services-container .services:nth-child(1) .service-card:nth-child(1) {
-    position: absolute;
-    top: 0;
-}
-
-section#our-services .section-container .section-body .services-container .services:nth-child(1) .service-card:nth-child(2) {
-    position: absolute;
-    top: 100px;
-}
-
-section#our-services .section-container .section-body .services-container .services:nth-child(1) .service-card:nth-child(3) {
-    position: absolute;
-    top: 200px;
-}
-
-section#our-services .section-container .section-body .services-container .services:nth-child(2) {
-    position: absolute;
-    left: 25%;
-}
-
-section#our-services .section-container .section-body .services-container .services:nth-child(2) .service-card:nth-child(1) {
-    position: absolute;
-    top: 0;
-}
-
-section#our-services .section-container .section-body .services-container .services:nth-child(2) .service-card:nth-child(2) {
-    position: absolute;
-    top: 100px;
-}
-
-section#our-services .section-container .section-body .services-container .services:nth-child(2) .service-card:nth-child(3) {
-    position: absolute;
-    top: 200px;
-}
-
-section#our-services .section-container .section-body .services-container .services:nth-child(3) {
-    position: absolute;
-    left: 50%
-}
-
-section#our-services .section-container .section-body .services-container .services:nth-child(3) .service-card:nth-child(1) {
-    position: absolute;
-    top: 0;
-}
-
-section#our-services .section-container .section-body .services-container .services:nth-child(3) .service-card:nth-child(2) {
-    position: absolute;
-    top: 100px;
-}
-
-section#our-services .section-container .section-body .services-container .services:nth-child(3) .service-card:nth-child(3) {
-    position: absolute;
-    top: 200px;
+    left: -1.9em;
 }
 
 /* Utility */
