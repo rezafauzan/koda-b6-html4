@@ -249,6 +249,13 @@ footer{
     text-align: center;
 }
 
+.chat{
+    position: fixed;
+    z-index: 10;
+    right: 1.8em;
+    bottom: 1.8em;
+}
+
 /* Utility */
 
 section .section-container .section-header {
